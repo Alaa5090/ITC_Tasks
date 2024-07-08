@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+
+} 
+.clr{
+    clear: both;
+}
+
+    
+
+.page1{
+   height: 100vh;
+   width: auto;
+    background-image: url(images/bg-home.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+
+}
+.res_img{
+    padding-top: 100px
+}
+.page1 .caption{
+    color: white;
+
+}
+.btn-h{
+    
+    padding: 10px;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;  
+    margin: 5px;  
+    
+}
+.btn1:hover{
+    background-color: rgb(199, 164, 164);
+    color: white;
+}
+/* --------------------------page2-------------------------------------------- */
+span{
+    color: rgb(94, 119, 228);
+}
+.caption2{
+    text-align: center;
+    width: 60%;
+    float: left;
+    padding-top: 90px;  
+    float: left;
+   
+}
+.caption2 h2{
+    font-size: 50px;
+}
+.caption2 p{
+      padding: 20px;  
+    line-height: 32px;
+}
+.caption2 button{
+    padding: 10px;
+    background-color: transparent ;
+    border: 3px solid black; 
+    border-radius: 2px;  
+    margin: 5px; 
+
+    }
+
+.chif_img{
+    width: 40%;
+    float: left;
+    
+   
+}
+/* ------------------------------------image cover------------- */
+.page3{
+
+
+background-image: url(images/overlay-img.jpg);
+height: 500px;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+overflow: hidden;
+text-align: center;
+}
+/* -----------------------------page4------------------------------ */
+
+
+.page4{
+    padding: 50px ;
+    
+}
+.dish{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.dish .line{
+    height: 3px;
+    background-color: black;
+    width: 100px;
+    margin: 10px auto; 
+}
+.dish img{
+   
+    border-radius: 50%;
+}
+.dish p{
+    padding-inline: 25px;
+}
